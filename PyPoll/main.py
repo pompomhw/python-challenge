@@ -36,7 +36,7 @@ result={i:[j,k] for i,j,k in zip( votes,name, percent)} # zip the 3 variables
 s_votes=sorted(votes, reverse=True)                     # sorting in the descending order
 
 #--------- print the analysis to the terminal ---------------------------  
-print(f' Election Results ')
+print(f'\n Election Results ')
 print(f'----------------------------')
 print(f' Total Votes: {str(t_votes)} ')
 print(f'----------------------------')
